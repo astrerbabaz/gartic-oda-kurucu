@@ -1,0 +1,1 @@
+from selenium.webdriver.chrome.options import Optionsoptions = Options()options.add_experimental_option("detach", True)s = Service('C:\\BrowserDrivers\\chromedriver.exe')driver = webdriver.Chrome(service=s, options=options)driver.get('https://www.google.com/')
